@@ -22,11 +22,7 @@
   font-size: large;
 }
 
-li {
-  list-style: none;
-  margin: 1em;
-}
-
+/* App.js selectors */
 .main-container {
   display: flex;
   flex-direction: row;
@@ -38,6 +34,7 @@ li {
   flex-shrink: 7;
 }
 
+/* Nav bar component */
 .nav-bar {
   display: flex;
   flex-grow: 1;
@@ -47,8 +44,33 @@ li {
   color: whitesmoke;
 }
 
+ul {
+  border: 2px solid pink;
+  margin: 0em;
+  padding: 0em;
+}
+
+li {
+  border: 2px solid white;
+  list-style: none;
+  margin: 0em;
+  padding: 1em 2.2em 0.8em 2em;
+}
+
 .nav-button {
   border: 0.1em solid blue;
-  border-radius: 0.5em;
+  border-radius: 1em;
   padding: 0.5em;
+}
+
+/* Featured Products */
+.featured-wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.featured-item {
+  height: 33%;
+  width: 33%;
 }

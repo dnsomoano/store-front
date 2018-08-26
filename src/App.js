@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
+import Nav from "./Component/Nav";
+import FeaturedProduct from "./Component/FeaturedProduct";
 
 class App extends Component {
   render() {
@@ -7,7 +9,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           Welcome to my store!
-          <ul>
+          {/* <ul>
             <li>
               <select>
                 <option value="accessories">Accessories</option>
@@ -21,24 +23,14 @@ class App extends Component {
                 <option value="ram">Ram</option>
               </select>
             </li>
-          </ul>
+          </ul> */}
         </header>
         <section className="body">
           <section className="main-container">
-            <section className="featured-products">featured products</section>
-            <section className="nav-bar">
-            <ul>
-              <li><a className="nav-button" value="accessories">Accessories</a></li>
-              <li><a className="nav-button" value="cases">Cases</a></li>
-              <li><a className="nav-button" value="cpu">CPUs</a></li>
-              <li><a className="nav-button" value="gpu">Graphic Cards</a></li>
-              <li><a className="nav-button" value="fans">Fans/Water cooling</a></li>
-              <li><a className="nav-button" value="hard-drives">Hard Drives</a></li>
-              <li><a className="nav-button" value="motherboard">Motherboards</a></li>
-              <li><a className="nav-button" value="power-supply">Power Supplies</a></li>
-              <li><a className="nav-button" value="ram">Ram</a></li>
-            </ul>
+            <section className="featured-products">
+              <FeaturedProduct />
             </section>
+            <Nav />
           </section>
         </section>
       </div>

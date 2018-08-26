@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  text-align: justify;
 }
 
 .App-logo {
@@ -96,4 +96,20 @@ li {
   height: 80%;
   width: 60%;
   margin-top: 1em;
+}
+
+/* Product details */
+.product-details {
+  display: flex;
+  flex-direction: row;
+}
+
+.item-preview {
+  display: flex;
+  flex-direction: column;
+}
+
+.photo-closeup {
+  height: 50%;
+  width: 50%;
 }

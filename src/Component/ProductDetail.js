@@ -9,15 +9,19 @@ class ProductDetail extends Component {
 
     return (
       <div>
-        <section>
-          <section className="product-details">
-            <ul>
-              <header>{_photoData.name}</header>
-              <img src={_photoData.imageURL} alt={_photoData.title} />
-              <h4>{_photoData.price}</h4>
-              <li>{_photoData.description1}</li>
-              <li>{_photoData.description2}</li>
-            </ul>
+        <section className="product-details">
+          <section className="item-preview">
+            <header>{_photoData.name}</header>
+            <img
+              className="photo-closeup"
+              src={_photoData.imageURL}
+              alt={_photoData.title}
+            />
+          </section>
+          <section className="item-preview">
+            <h4>{_photoData.price}</h4>
+            <h5>{_photoData.description1}</h5>
+            <h5>{_photoData.description2}</h5>
           </section>
         </section>
       </div>

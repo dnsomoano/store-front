@@ -2,14 +2,17 @@ import React, { Component } from "react";
 import "./App.css";
 import Nav from "./Component/Nav";
 import FeaturedProduct from "./Component/FeaturedProduct";
+// WORKING ON
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          Resale2Retail Hardware
-          {/* <ul>
+      <Router>
+        <div className="App">
+          <header className="App-header">
+            Resale2Retail Hardware
+            {/* <ul>
             <li>
               <select>
                 <option value="accessories">Accessories</option>
@@ -24,16 +27,19 @@ class App extends Component {
               </select>
             </li>
           </ul> */}
-        </header>
-        <section className="body">
-          <section className="main-container">
-            <section className="featured-products">
-              <FeaturedProduct />
-            </section>
-            <Nav />
+          </header>
+          <section className="body">
+            <Switch>
+              <section className="featured-products">
+                <Route path="/" exact component={FeaturedProduct} />
+                <Nav />
+              </section>
+              {/* <Route path="/:category" exact component={PhotoList} />
+              <Route path="/:category/:index" exact component={PhotoDetail} /> */}
+            </Switch>
           </section>
-        </section>
-      </div>
+        </div>
+      </Router>
     );
   }
 }

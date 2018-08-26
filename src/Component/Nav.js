@@ -6,7 +6,7 @@ class Nav extends Component {
       <div>
         <section className="nav-bar">
           <ul>
-            <li>
+            {/* <li>
               <a className="nav-button" value="accessories">
                 Accessories
               </a>
@@ -15,7 +15,7 @@ class Nav extends Component {
               <a className="nav-button" value="cases">
                 Cases
               </a>
-            </li>
+            </li> */}
             <li>
               <a className="nav-button" value="cpu">
                 CPUs
@@ -26,7 +26,7 @@ class Nav extends Component {
                 Graphic Cards
               </a>
             </li>
-            <li>
+            {/* <li>
               <a className="nav-button" value="fans">
                 Fans/Water cooling
               </a>
@@ -35,13 +35,13 @@ class Nav extends Component {
               <a className="nav-button" value="hard-drives">
                 Hard Drives
               </a>
-            </li>
+            </li> */}
             <li>
               <a className="nav-button" value="motherboard">
                 Motherboards
               </a>
             </li>
-            <li>
+            {/* <li>
               <a className="nav-button" value="power-supply">
                 Power Supplies
               </a>
@@ -50,7 +50,7 @@ class Nav extends Component {
               <a className="nav-button" value="ram">
                 Ram
               </a>
-            </li>
+            </li> */}
           </ul>
         </section>
       </div>

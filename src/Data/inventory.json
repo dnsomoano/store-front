@@ -1,0 +1,108 @@
+{
+  "cpus": {
+    "amd": [
+      {
+        "name": "AMD RYZEN 5 2600 6-Core 3.4 GHz",
+        "price": "$169.99",
+        "img": "./images/CPU/AMD/AMD RYZEN 3 2200G Quad-Core 3.5 GHz.jpg",
+        "description1": "Socket AM4",
+        "description2": "Max Boost Frequency 3.9 GHz"
+      },
+      {
+        "name": "AMD RYZEN 3 2200G Quad-Core 3.5 GHz",
+        "price": "$99.99",
+        "img": "./images/CPU/AMD/AMD RYZEN 5 2600 6-Core 3.4 GHz.jpg",
+        "description1": "4 Cores Unlocked",
+        "description2": "Frequency: 3.7 GHz Max Boost"
+      }
+    ],
+    "intel": [
+      {
+        "name": "Coffee Lake i5",
+        "price": "$229.99",
+        "img": "./images/CPU/Intel/CoffeeLakei5.jpg",
+        "description1": "Only Compatible with Intel 300 Series Motherboard",
+        "description2": "Max Turbo Frequency 4.3 GHz"
+      },
+      {
+        "name": "Skylake X",
+        "price": "$469.99",
+        "img": "./images/CPU/Intel/SkyLakeX.jpg",
+        "description1": "Compatible with Intel X299 Chipset Motherboards",
+        "description2": "Socket LGA 2066"
+      }
+    ]
+  },
+  "graphic-cards": {
+    "amd": [
+      {
+        "name": "MSI Radeon RX 580",
+        "price": "$279.99",
+        "img": "./images/GraphicCard/AMD/MSI Radeon RX 580.jpg",
+        "description1": "8GB 256-Bit GDDR5",
+        "description2": "Boost Clock 1366 MHz"
+      },
+      {
+        "name": "ASUS DUAL Radeon RX 580 4GB",
+        "price": "$363.19",
+        "img": "./images/GraphicCard/AMD/ASUS DUAL Radeon RX 580 4GB.jpg",
+        "description1": "1380MHZ GPU Boost Clock",
+        "description2": "Dual-fan cooling provides doubled airflow for 3x quieter gameplay"
+      }
+    ],
+    "nvidia": [
+      {
+        "name": "GIGABYTE GeForce RTX 2080 Ti",
+        "price": "$1,199.99",
+        "img": "./images/GraphicCard/Nvidia/GIGABYTE GeForce RTX 2080 Ti.jpg",
+        "description1": "11GB 352-Bit GDDR6",
+        "description2": "1 x HDMI 3 x DisplayPort"
+      },
+      {
+        "name": "GIGABYTE GeForce RTX 2080 WINDFORCE OC 8G",
+        "price": "$789.99",
+        "img": "./images/GraphicCard/Nvidia/GIGABYTE GeForce RTX 2080 WINDFORCE OC 8G.jpg",
+        "description1": "8GB 256-Bit GDDR6",
+        "description2": "PCI Express 3.0 x16"
+      }
+    ]
+  },
+  "motherboards": {
+    "ASRock": [
+      {
+        "name": "ASRock Fatal1ty",
+        "price": "$169.99",
+        "img": "./images/Motherboard/ASRock Fatal1ty.jpg",
+        "description1": "8th Gen Intel CPU supports DDR4 up to 2666.",
+        "description2": "DDR4 4333+(OC)*/ 4266(OC)/ 4133(OC)/ 4000(OC)/ 3866(OC)/ 3800(OC)/ 3733(OC)/ 3600(OC)/ 3200(OC)/ 2933(OC)/ 2800(OC)/ 2666/ 2400/ 2133"
+      }
+    ],
+    "ASUS": [
+      {
+        "name": "ASUS ROG Maximus X Hero",
+        "price": "$239.99",
+        "img": "./images/Motherboard/ASUSROGMaximusX.jpg",
+        "description1": "Intel LGA1151 socket only for 8th Gen Intel Core Processors 4 x DDR4 Slots / Up to 64GB",
+        "description2": "Designed exclusively for 8th generation Intel Core processors to maximize connectivity and speed"
+      }
+    ],
+    "EVGA": [
+      {
+        "name": "EVGA Z370 FTW",
+        "price": "$179.95",
+        "img": "./images/Motherboard/EVGA Z370 FTW.jpg",
+        "description1": "Intel Z370 Chipset - supports Intel Core 8th Generation Processor Family for LGA1151 socket (i3/i5/i7)",
+        "description2": "4 Metal Reinforced DDR4 DIMM Dual-Channel 4133MHz+"
+      }
+    ],
+    "MSI": [
+      {
+        "name": "MSI B360 LGA 1151",
+        "price": "$94.99",
+        "img": "./images/Motherboard/MSI_B360.jpg",
+        "description1": "Supports 8th Gen Intel Core, Pentium Gold and Celeron Processors for Socket LGA1151",
+        "description2": "Supports DDR4 2666/ 2400/ 2133 MHz"
+      }
+    ]
+  }
+}

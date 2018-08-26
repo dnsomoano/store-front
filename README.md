@@ -9,7 +9,7 @@ In this assignment you will build a mock e-commerce website. Take time to think 
 Explorer Mode
 - [X] Your store should have categories that products are placed in.
 - [X] The landing page should display "featured" products.
-- [] Your store should have a listing page of all products.
+- [X] Your store should have a listing page of all products.
 - [] Your store should have a listing page of products in specific categories (this might be the same component as the previous requirement, think about how this would work).
 - [] Your store should have a product details page, with a photo, price and other details.
 - [] Create your own JSON file with data for your products.

@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          Welcome to my store!
+          Resale2Retail Hardware
           {/* <ul>
             <li>
               <select>

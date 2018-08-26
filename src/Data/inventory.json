@@ -1,7 +1,7 @@
 {
-  "amd-cpus": {
-    "title": "AMD RYZEN",
-    "description": "The newest from AMD! A Ryzen up again!",
+  "cpus": {
+    "title": "Processors",
+    "description": "The newest from AMD! A Ryzen up again! Intel chips newest lake series",
     "details": [
       {
         "name": "AMD RYZEN 5 2600 6-Core 3.4 GHz",
@@ -18,15 +18,9 @@
         "img": "./images/CPU/AMD/AMD RYZEN 5 2600 6-Core 3.4 GHz.jpg",
         "description1": "4 Cores Unlocked",
         "description2": "Frequency: 3.7 GHz Max Boost"
-      }
-    ]
-  },
-  "intel-cpus": {
-    "title": "Intel i7",
-    "description": "Cores, cores, cores",
-    "details": [
+      },
       {
-        "name": "Coffee Lake i5-8600",
+        "name": "Intel Coffee Lake i5-8600",
         "price": "$229.99",
         "imageURL": "https://c1.neweggimages.com/NeweggImage/ProductImageCompressAll1280/19-117-885-V01.jpg",
         "img": "./images/CPU/Intel/CoffeeLakei5.jpg",
@@ -34,7 +28,7 @@
         "description2": "Max Turbo Frequency 4.3 GHz"
       },
       {
-        "name": "Skylake X",
+        "name": "Intel Skylake X",
         "price": "$469.99",
         "imageURL": "https://c1.neweggimages.com/NeweggImage/ProductImage/19-117-794-S02.jpg",
         "img": "./images/CPU/Intel/SkyLakeX.jpg",
@@ -43,9 +37,9 @@
       }
     ]
   },
-  "amd-graphic-cards": {
-    "title": "AMD RADEON",
-    "description": "Totally radioactive man!",
+  "graphic-cards": {
+    "title": "Graphic Cards",
+    "description": "We have Radeons and cards that aren't microwaves!",
     "details": [
       {
         "name": "MSI Radeon RX 580",
@@ -62,13 +56,7 @@
         "img": "./images/GraphicCard/AMD/ASUS DUAL Radeon RX 580 4GB.jpg",
         "description1": "1380MHZ GPU Boost Clock",
         "description2": "Dual-fan cooling provides doubled airflow for 3x quieter gameplay"
-      }
-    ]
-  },
-  "nvidia-graphic-cards": {
-    "title": "Nvidia GeForce",
-    "description": "Graphic cards that aren't microwaves!",
-    "details": [
+      },
       {
         "name": "GIGABYTE GeForce RTX 2080 Ti",
         "price": "$1,199.99",
@@ -88,8 +76,8 @@
     ]
   },
   "motherboards": {
-    "title": "Asus, AsRock, MSI and more",
-    "description": "Variety of mobos fo yo rig o",
+    "title": "Motherboards",
+    "description": "Word to your Motherboard",
     "details": [
       {
         "name": "ASRock Fatal1ty Z370",

@@ -1,12 +1,14 @@
 import React, { Component } from "react";
+// import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 class Nav extends Component {
   render() {
     return (
       <div>
-        <section className="nav-bar">
-          <ul>
-            {/* <li>
+        <Router>
+          <section className="nav-bar">
+            <ul>
+              {/* <li>
               <a className="nav-button" value="accessories">
                 Accessories
               </a>
@@ -16,17 +18,17 @@ class Nav extends Component {
                 Cases
               </a>
             </li> */}
-            <li>
-              <a className="nav-button" value="cpu">
-                CPUs
-              </a>
-            </li>
-            <li>
-              <a className="nav-button" value="gpu">
-                Graphic Cards
-              </a>
-            </li>
-            {/* <li>
+              <li>
+                <a className="nav-button" value="cpu">
+                  CPUs
+                </a>
+              </li>
+              <li>
+                <a className="nav-button" value="gpu">
+                  Graphic Cards
+                </a>
+              </li>
+              {/* <li>
               <a className="nav-button" value="fans">
                 Fans/Water cooling
               </a>
@@ -36,12 +38,12 @@ class Nav extends Component {
                 Hard Drives
               </a>
             </li> */}
-            <li>
-              <a className="nav-button" value="motherboard">
-                Motherboards
-              </a>
-            </li>
-            {/* <li>
+              <li>
+                <a className="nav-button" value="motherboard">
+                  Motherboards
+                </a>
+              </li>
+              {/* <li>
               <a className="nav-button" value="power-supply">
                 Power Supplies
               </a>
@@ -51,8 +53,9 @@ class Nav extends Component {
                 Ram
               </a>
             </li> */}
-          </ul>
-        </section>
+            </ul>
+          </section>
+        </Router>
       </div>
     );
   }

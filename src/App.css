@@ -37,14 +37,15 @@
 /* Nav bar component */
 .nav-bar {
   display: flex;
-  flex-grow: 1;
-  flex-shrink: 1;
+  flex-direction: row;
   background-color: #222;
   border: 0.2em double white;
   color: whitesmoke;
 }
 
 ul {
+  display: flex;
+  flex-direction: row;
   border: 2px solid pink;
   margin: 0em;
   padding: 0em;
@@ -63,14 +64,36 @@ li {
   padding: 0.5em;
 }
 
+/* TODO Have featured product knock to the next row */
 /* Featured Products */
-.featured-wrap {
+.featured-wrapper {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
 }
 
 .featured-item {
-  height: 33%;
-  width: 33%;
+  height: 50%;
+  width: 50%;
+  margin: 1em;
+}
+
+/* Product listings */
+.product-listing {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.prod-listing-preview {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 2px double black;
+  margin: 1em;
+}
+
+.photo-preview {
+  height: 80%;
+  width: 60%;
+  margin-top: 1em;
 }

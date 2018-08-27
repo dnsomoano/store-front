@@ -16,11 +16,13 @@ class ProductListing extends Component {
             return (
               <Link to={`/${_category}/${i}`}>
                 <section className="prod-listing-preview">
+                <h3>{photo.name}</h3>
                   <img
                     className="photo-preview"
                     src={photo.img}
                     alt={photo.name}
                   />
+                  <h5>{photo.price}</h5>
                 </section>
               </Link>
             );

@@ -14,7 +14,7 @@ class ProductDetail extends Component {
             <header>{_photoData.name}</header>
             <img
               className="photo-closeup"
-              src={_photoData.imageURL}
+              src={_photoData.img}
               alt={_photoData.title}
             />
           </section>

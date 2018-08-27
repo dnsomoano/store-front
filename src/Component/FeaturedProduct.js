@@ -22,6 +22,7 @@ class FeaturedProduct extends Component {
                     src={products[productKey].details[0].imageURL}
                     alt={products[productKey].details[0].title}
                   />
+                  <h4>{products[productKey].details[0].price}</h4>
                 </Link>
               </section>
             );

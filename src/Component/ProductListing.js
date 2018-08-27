@@ -18,7 +18,7 @@ class ProductListing extends Component {
                 <section className="prod-listing-preview">
                   <img
                     className="photo-preview"
-                    src={photo.imageURL}
+                    src={photo.img}
                     alt={photo.name}
                   />
                 </section>
